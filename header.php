@@ -15,19 +15,32 @@
 <body>
 
 <header>
-    <div class="header-pagalbinis">
-        <div class="container">
+    <div class="header-wrapper">
+        <div class="virsutinis-meniu">
+            <div class="krepselis"><a href="#"><img src="http://localhost/biolatte%20img/krepselis.png"> Cart</a></div>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+
+        </div>
+        <div class="apatinis-meniu">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="menu-wrapper">
-                        <ul>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Register</a></li>
-                            <li><a href="#">Facebook</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <div class="logo"><img src="http://localhost/biolatte%20img/logo.png"></div>
+            </div>
+            <div class="col-md-9">
+            <ul>
+                <li><a href="#">How To Purchase</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Store Locators</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
             </div>
         </div>
     </div>
 </header>
+

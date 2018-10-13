@@ -1,0 +1,69 @@
+body{
+  font-family: "Times New Roman";
+}
+.header-wrapper{
+  background-image: url("http://localhost/biolatte%20img/fonas4.png");
+  width: 1513px;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.virsutinis-meniu {
+  float: left;
+  background-image: url("http://localhost/biolatte%20img/meniu2.png") ;
+  width: 1260px;
+  height: 54px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 1px 5px 5px grey;
+  li {
+    display: inline-block;
+    margin-top: 11px;
+    float: right;
+  }
+  a {
+    font-size: 20px;
+    color: #52a235;
+    padding: 10px 10px;
+  }
+  a:hover{
+    color:#a1a1a1;}
+  .krepselis{
+    float: right;
+    color: #52a235;
+    font-size: 25px;
+    padding:5px;
+    border-color: #a3ae9b;
+    border-left-style: solid;
+    margin:2px;
+  }
+}
+.apatinis-meniu{
+  background-color: white; opacity: 0.7;
+  width: 100%;
+  height: 130px;
+  padding-right: 30px;
+  position: relative;
+  li{
+    display:inline;
+  }
+  a{
+    font-size: 20px;
+    color: #52a235;
+    padding-right: 20px;
+    float: right;
+    padding-top: 75px;
+
+    }
+  a:hover{
+    color:#a1a1a1;
+  }
+ .logo {
+   padding-top: 67px;
+   margin-left: 70px;
+   opacity: 1.0;
+   position: absolute;
+ }
+}
+
