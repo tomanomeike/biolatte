@@ -4,9 +4,9 @@ body {
 .header-wrapper {
   background-image: url("http://localhost/biolatte%20img/fonas4.png");
   background-repeat: no-repeat;
+  width: 100%;
   height: 600px;
-  position: relative;
-  background-size: auto; }
+  background-size: cover; }
 
 .virsutinis-meniu {
   float: left;
