@@ -7,12 +7,18 @@ body {
   width: 100%;
   height: 600px;
   background-size: cover; }
+  .header-wrapper .container-header {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 0px; }
 
 .virsutinis-meniu {
   float: left;
   background-image: url("http://localhost/biolatte%20img/meniu2.png");
-  width: 1260px;
-  height: 54px;
+  width: 100%;
+  height: auto;
   background-repeat: no-repeat;
   position: absolute;
   z-index: 1;
@@ -100,7 +106,8 @@ body {
     margin: 10px; }
   .container-buteliuku .buteliuku-img {
     padding-bottom: 25px;
-    border-bottom: 2px solid #202020; }
+    border-bottom: 2px solid #202020;
+    text-align: center; }
   .container-buteliuku .button-cart {
     background-color: #248804;
     border: none;
@@ -112,20 +119,72 @@ body {
     font-size: 16px;
     margin: 5px;
     outline: none;
-    float: right; }
+    float: left; }
   .container-buteliuku .pavadinimas {
     font-size: 20px;
     color: #248804;
     font-weight: bold; }
-  .container-buteliuku .kaina1 {
-    color: #989898;
-    font-size: 21px;
-    font-weight: bold; }
-  .container-buteliuku .kaina2 {
-    color: #8f0101;
-    font-size: 21px;
-    font-weight: bold; }
-  .container-buteliuku .kaina1, .container-buteliuku .kaina2 {
-    float: left; }
+
+.container-buteliuku .container .kaina2 {
+  color: #8f0101;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
+.container-buteliuku .kaina1 p {
+  color: #989898;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
+.container-wrapper {
+  background-color: #c3e25a; }
+
+.container-zmoniu {
+  margin: 80px;
+  background-color: #c3e25a;
+  margin: 80px; }
+
+.zmoniu-foto-wrapper .zmoniu-foto {
+  float: left;
+  border: 2px solid white;
+  width: 22%;
+  margin: 20px;
+  text-align: center;
+  padding: 10px; }
+.zmoniu-foto-wrapper .zmoniu-img img {
+  border-radius: 50%; }
+.zmoniu-foto-wrapper .zmoniu-uzrasai {
+  color: #248805; }
+
+.container-obuolys {
+  margin: 0px 0px; }
+
+.obuolys-uzrasai-wrapper {
+  background: url("http://localhost/biolatte%20img/obuolys-foto1.png");
+  width: 100%;
+  height: 520px;
+  background-repeat: no-repeat; }
+  .obuolys-uzrasai-wrapper .uzrasai {
+    float: left;
+    margin: 60px 50px;
+    color: #248805; }
+    .obuolys-uzrasai-wrapper .uzrasai h3 {
+      font-size: 40px; }
+    .obuolys-uzrasai-wrapper .uzrasai p {
+      font-size: 18px; }
+
+.mygtukas {
+  color: white;
+  background-color: #248805;
+  padding: 15px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); }
+
+.container-delivery {
+  background-image: url("http://localhost/biolatte%20img/delivery-foto.png");
+  background-repeat: no-repeat;
+  border: 1px solid black; }
+  .container-delivery .delivery-uzrasas-wrapper {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
