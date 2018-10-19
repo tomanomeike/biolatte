@@ -9,15 +9,13 @@ body {
   background-size: cover; }
   .header-wrapper .container-header {
     width: 100%;
-    padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
     margin-left: 0px; }
 
 .virsutinis-meniu {
   float: left;
   background-image: url("http://localhost/biolatte%20img/meniu2.png");
-  width: 100%;
+  width: 1200px;
   height: auto;
   background-repeat: no-repeat;
   position: absolute;
@@ -149,9 +147,7 @@ body {
   background-color: #c3e25a; }
 
 .container-zmoniu {
-  margin: 80px;
-  background-color: #c3e25a;
-  margin: 80px; }
+  background-color: #c3e25a; }
 
 .zmoniu-foto-wrapper .zmoniu-foto {
   float: left;
@@ -221,5 +217,31 @@ body {
 .biolatte-uzrasas, .facebook {
   color: #248805;
   font-weight: bold; }
+
+.footer-container {
+  background-color: #222222;
+  color: white;
+  padding-top: 15px; }
+  .footer-container h7, .footer-container .mazas-zalias-tekstas {
+    color: #228803; }
+  .footer-container .mazas-tekstas {
+    font-size: 12px; }
+  .footer-container .fas fa-envelope {
+    color: white; }
+
+.input-container {
+  position: relative; }
+  .input-container .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    left: 173px;
+    top: 5px;
+    color: #228803; }
+
+.footer-apacia {
+  background-color: #000000;
+  color: white;
+  font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
