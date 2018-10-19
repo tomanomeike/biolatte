@@ -137,6 +137,14 @@ body {
   font-weight: bold;
   margin-bottom: 0px; }
 
+.buteliuku-foto {
+  position: relative; }
+
+.button-cart {
+  position: absolute;
+  left: 57px;
+  top: 275px; }
+
 .container-wrapper {
   background-color: #c3e25a; }
 
@@ -148,7 +156,7 @@ body {
 .zmoniu-foto-wrapper .zmoniu-foto {
   float: left;
   border: 2px solid white;
-  width: 22%;
+  width: 21%;
   margin: 20px;
   text-align: center;
   padding: 10px; }
@@ -183,8 +191,35 @@ body {
 .container-delivery {
   background-image: url("http://localhost/biolatte%20img/delivery-foto.png");
   background-repeat: no-repeat;
-  border: 1px solid black; }
+  border: 1px solid black;
+  position: relative;
+  height: 250px;
+  margin-bottom: 60px; }
   .container-delivery .delivery-uzrasas-wrapper {
-    margin-top: 50px; }
+    text-align: center;
+    position: absolute;
+    top: 40px; }
+
+.linija1 {
+  border-left: 1px solid black;
+  height: 170px;
+  position: absolute;
+  left: 432px;
+  top: 40px; }
+
+.linija2 {
+  border-left: 1px solid black;
+  height: 170px;
+  position: absolute;
+  left: 812px;
+  top: 40px; }
+
+.facebook img {
+  width: 100%;
+  height: 360px; }
+
+.biolatte-uzrasas, .facebook {
+  color: #248805;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
