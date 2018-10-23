@@ -1,27 +1,27 @@
 <?php include 'header.php';?>
 <div class="container-store">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
             <div class="left-button">
                 <a href="#" class="button">STORE</a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
             <div class="right-button">
                 <a href="#" class="button-center">Check out our product range</a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
             <div class="right-button">
                 <a href="#" class="button">STORE</a>
             </div>
         </div>
 </div>
 </div>
-<div class="container-buteliuku">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="buteliuku-foto-wrapper">
+<div class="buteliuku">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="buteliuku-foto">
                     <div class="buteliuku-img">
                         <img src="http://localhost/biolatte%20img/buteliukas.png">
@@ -33,7 +33,6 @@
                         <a href="#" class="button-cart">ADD TO CART</a>
                     </div>
                 </div>
-            </div>
 
                 <div class="buteliuku-foto">
                     <div class="buteliuku-img">
@@ -59,24 +58,24 @@
                     </div>
                 </div>
 
-                <div class="buteliuku-foto">
-                    <div class="buteliuku-img">
-                        <img src="http://localhost/biolatte%20img/buteliukas.png">
-                    </div>
-                    <div class="uzrasas">
-                        <p class="pavadinimas">BIOLATTE ORIGINAL 110 KAPSILT</p>
-                        <p class="kaina1">33,60&euro;</p>
-                        <p class="kaina2">26,88&euro;</p>
-                        <a href="#" class="button-cart">ADD TO CART</a>
-                    </div>
+            <div class="buteliuku-foto">
+                <div class="buteliuku-img">
+                    <img src="http://localhost/biolatte%20img/buteliukas.png">
+                </div>
+                <div class="uzrasas">
+                    <p class="pavadinimas">BIOLATTE ORIGINAL 110 KAPSILT</p>
+                    <p class="kaina1">33,60&euro;</p>
+                    <p class="kaina2">26,88&euro;</p>
+                    <a href="#" class="button-cart">ADD TO CART</a>
                 </div>
             </div>
+                <div class="clearfix"></div>
         </div>
+     </div>
     </div>
 </div>
-</div>
 <div class="container-wrapper">
-<div class="container-zmoniu">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="zmoniu-foto-wrapper">
@@ -154,7 +153,7 @@
     </div>
 </div>
 </div>
-<div class="container-obuolys">
+<div class="wrapper-obuolys">
     <div class="row">
         <div class="col-md-12">
             <div class="obuolys-uzrasai-wrapper">
@@ -172,7 +171,7 @@
 <div class="container-delivery">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4">
                 <div class="delivery-uzrasas-wrapper">
                     <img src="http://localhost/biolatte%20img/masina.png" height="80px">
                     <h4>SODNE TRANSPORT</h4>
@@ -180,7 +179,7 @@
                 </div>
             </div>
             <span class="linija1"></span>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4">
                 <div class="delivery-uzrasas-wrapper">
                     <img class="etikete" src="http://localhost/biolatte%20img/etikete.png" height="80px">
                     <h4>HINNAGARANTIE</h4>
@@ -188,7 +187,7 @@
                 </div>
             </div>
             <span class="linija2"></span>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4">
                 <div  class="delivery-uzrasas-wrapper">
                     <img src="http://localhost/biolatte%20img/krepselis-rodykle.png" height="80px">
                     <h4>SODNE TRANSPORT</h4>
@@ -202,10 +201,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h3 class="biolatte-uzrasas">Bolatte</h3>
-            <p>Lorem ipsum dolor sit amet, et cum animal iudicabit. Has saepe efficiendi definitiones cu, laudem commune sea ex. Id vocibus delectus sensibus has, mei omnesque percipit ut, ea vim populo iriure abhorreant. Ex mea vivendo abhorreant, vis an dicit voluptaria. Ea usu iudico altera feugiat, soleat invenire eu nam.<br><br>
-            Et eum sapientem scribentur. Consequat liberavisse sed ne, ex animal mentitum concludaturque pri. Delectus singulis in quo, sit sint gloriatur sadipscing an. Amet mutat petentium te cum, ut delenit iracundia vel. Primis delicata ullamcorper at ius. Has essent latine ornatus ne.<br><br>
-            Amet signiferumque at vim. Vim illum discere ex. Possim deserunt reformidans eam te. At per unum quaeque, ad ornatus interesset mei. Doming appetere voluptaria an duo.</p>
+                <h3 class="biolatte-uzrasas">Biolatte</h3>
+                <p>Lorem ipsum dolor sit amet, et cum animal iudicabit. Has saepe efficiendi definitiones cu, laudem commune sea ex. Id vocibus delectus sensibus has, mei omnesque percipit ut, ea vim populo iriure abhorreant. Ex mea vivendo abhorreant, vis an dicit voluptaria. Ea usu iudico altera feugiat, soleat invenire eu nam.<br><br>
+                Et eum sapientem scribentur. Consequat liberavisse sed ne, ex animal mentitum concludaturque pri. Delectus singulis in quo, sit sint gloriatur sadipscing an. Amet mutat petentium te cum, ut delenit iracundia vel. Primis delicata ullamcorper at ius. Has essent latine ornatus ne.<br><br>
+                Amet signiferumque at vim. Vim illum discere ex. Possim deserunt reformidans eam te. At per unum quaeque, ad ornatus interesset mei. Doming appetere voluptaria an duo.</p>
         </div>
         <div class="col-md-4">
             <div class="facebook">

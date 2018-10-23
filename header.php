@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<header>
+<!--<header>
     <div class="header-wrapper">
         <div class="container-header">
             <div class="row">
@@ -47,5 +47,68 @@
             </div>
         </div>
     </div>
-</header>
+</header>--->
 
+
+
+    <div class="header-block">
+        <div class="header-top">
+
+
+
+
+             <div class="main-top-background"></div>
+             <div class="main-top-shadow"></div>
+             <div class="main-top-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="content-padding-right">
+                                <a href="#" class="cartas"><img src="http://localhost/biolatte%20img/krepselis.png"> Cart</a>
+
+                                <ul class="subheader-menu">
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="main-top-stripes"></div>
+        </div>
+
+        <div class="slider-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#" class="logo-container">
+                            <img class="img-responsive" src="http://localhost/biolatte%20img/new-header/logo_2.png" alt="" title="">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="header-meniu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="slider-block">
+        <img class="img-responsive" src="http://localhost/biolatte%20img/new-header/slider-1.jpg" width=100% alt="" title="">
+    </div>
+
+    <header>
+
+    </header>
